@@ -4,12 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 03</title>
+    <!-- DaisyUI cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
-
+<!-- font cdn -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<style>
+    .font-monrope{
+        font-family: "Manrope", sans-serif;
+    }
+</style>
 </head>
-<body>
+<body class="font-monrope">
+<!-- header section -->
+ <header class="lg:px-10 lg:py-15 bg-gradient-to-r from-[#ffffffc5] to-[#ffffff46]">
+<nav>
+    <div class="navbar bg-base-100 flex justify-evenly">
+       <!--icon  -->
+      <div class="xl:navbar-start xl:w-1/4">
+         
+          <div class="bg-[#ABEF5F] w-10 h-10 rounded-full p-2"><img width="25" height="25" src="https://img.icons8.com/material-outlined/24/up-right-arrow.png" alt="up-right-arrow"/></div>
+          <a class="btn btn-ghost text-3xl">Rinterio</a>
+        </div>
+        <!-- link -->
+        <div class=" navbar-center hidden lg:flex xl:w-2/4">
+          <ul class="menu menu-horizontal px-1 text-[#737373]">
+            <li class="font-semibold"><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+            <!-- search -->
+        
+        <div class="navbar-end gap-2 xl:w-1/4">
+            <div class="flex gap-4 items-end">
+                <div class="bg-slate-100 rounded-full p-2 h-10 w-10 hidden lg:block  ">
+                <img width="34" height="34" src="https://img.icons8.com/windows/32/search--v1.png" alt="search--v1"/>
+            </div>
+            <div class="bg-slate-100 rounded-full p-2 h-10 w-10 hidden lg:block "><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/shopping-cart.png" alt="shopping-cart"/>
+            </div>
+        </div>
+        <div class="hidden md:block">
+          <a class="btn bg-[#ABEF5F] rounded-full">Book Consult <span class="rounded-full bg-white p-1"><img width="25" height="25" src="https://img.icons8.com/ios/50/up-right-arrow.png" alt="up-right-arrow"/></span></a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul
+          tabindex="0"
+          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
     
+      </div>
+</nav>
+<!-- banner -->
+<section class="text-center lg:p-20 space-y-8">
+  <img class="lg:mx-auto" src="assets/banner.png" alt="">
+  <h1 class="text-3xl lg:text-6xl font-bold">
+    A barn house of this design has a striking appearance
+  </h1>
+<p class="text-[#494949]">
+  The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+</p>
+<button class="btn btn-success bg-[#ABEF5F80] rounded-full w-full md:w-40">View Details<img class="bg-green-400 rounded-full p-1" width="25" height="25" src="https://img.icons8.com/ios/50/up-right-arrow.png" alt="up-right-arrow"/></button>
+
+</section>
+ </header>
+ <!-- main section -->
+  <main>
+
+  </main>
+  <!-- footer section -->
+   <footer>
+
+   </footer>
 </body>
 </html>
